@@ -54,8 +54,10 @@ try:
 
         userScorePercent = userScore / numberOfQuestions * 100
         print(BColors.BLUE + "You got " + str(userScorePercent) + "%\n")
-
-        userInput = input(BColors.NORMAL + "Do you want to review your mistakes? (y/n): ")
+        if(userScorePercent != 100):
+            userInput = input(BColors.NORMAL + "Do you want to review your mistakes? (y/n): ")
+        else:
+            print("No mistakes made, good job!")
         if userInput == "y":
             for (q, userAnswer) in wrongQuestions:
                 print(BColors.NORMAL + q['question'])
