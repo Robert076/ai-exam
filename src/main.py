@@ -61,10 +61,10 @@ try:
                 print(BColors.NORMAL + q['question'])
                 for j in range(len(q['answers'])):
                     print(chr(j + 97) + ") " + q['answers'][j])
-                print("Your answer was " + userAnswer)
-                print("The correct answer was " + q['correct'])
+                print(BColors.INCORRECT + "Your answer was " + userAnswer)
+                print(BColors.CORRECT + "The correct answer was " + q['correct'])
 
-        userInput = input("Do you want to play again? (y/n): ")
+        userInput = input(BColors.NORMAL + "Do you want to play again? (y/n): ")
         if userInput == "n":
             print("Thank you for playing!")
             time.sleep(3)
