@@ -19,3 +19,5 @@ python3 main.py
 ```
 
 > ❗️ Some questions might have incorrect answers. Please make sure to double check everything.
+
+<img width="903" alt="Image" src="https://github.com/user-attachments/assets/f4865095-b7db-4aad-bbf9-e7a77a206811" />
