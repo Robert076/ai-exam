@@ -67,11 +67,9 @@ try:
         userInput = input(BColors.NORMAL + "Do you want to play again? (y/n): ")
         if userInput == "n":
             print("Thank you for playing!")
-            time.sleep(3)
             break
         else:
             print("Starting again...")
-            time.sleep(2)
 
 except KeyboardInterrupt:
     print("\n\n" + BColors.INCORRECT + "Quiz interrupted by user.")
