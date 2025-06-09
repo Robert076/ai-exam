@@ -11,12 +11,7 @@
   },
   {
     "question": "What problems can be solved with machine learning?",
-    "answers": [
-      "regressions",
-      "???",
-      "plannings and classifications",
-      "none of the above"
-    ],
+    "answers": ["regressions", "???", "plannings and classifications", "none of the above"],
     "correct": "ac"
   },
   {
@@ -192,16 +187,6 @@
     "correct": "d"
   },
   {
-    "question": "What sort of problems can a perceptron solve?",
-    "answers": [
-      "linear separation of elements from the domain",
-      "XOR problem",
-      "depends on the structure",
-      "none of the above"
-    ],
-    "correct": "bc"
-  },
-  {
     "question": "The vanishing gradients during backpropagation are:",
     "answers": [
       "not affecting us since the derivative is zero in this case on most of the domain",
@@ -224,12 +209,7 @@
   },
   {
     "question": "An ANN with a structure of 226:15:10:2 with a sigmoid activation function. How many weights will the first neuron from the first hidden layer have?",
-    "answers": [
-      "2",
-      "226",
-      "10",
-      "15"
-    ],
+    "answers": ["2", "226", "10", "15"],
     "correct": "b"
   },
   {
@@ -324,22 +304,12 @@
   },
   {
     "question": "An ANN has a structure of 26:15:10:2 with a sigmoid activation function. How many weights will have the first neuron from the first hidden layer?",
-    "answers": [
-      "2",
-      "15",
-      "26",
-      "10"
-    ],
+    "answers": ["2", "15", "26", "10"],
     "correct": "c"
   },
   {
     "question": "When constructing a decision tree, the attribute selection can be:",
-    "answers": [
-      "In preorder.",
-      "Random.",
-      "Based on the top parent.",
-      "None of the above."
-    ],
+    "answers": ["In preorder.", "Random.", "Based on the top parent.", "None of the above."],
     "correct": "b"
   },
   {
