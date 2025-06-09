@@ -670,7 +670,7 @@
       "Cross entropy error with arctangent.",
       "None of the above."
     ],
-    "correct": "a"
+    "correct": "ab"
   },
   {
     "question": "In an artificial neuron, the transfer function:",
