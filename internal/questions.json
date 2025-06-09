@@ -124,7 +124,7 @@
       "mean square error with the linear function",
       "none of the above"
     ],
-    "correct": "ac"
+    "correct": "abc"
   },
   {
     "question": "How does a ConvNet compute an image?",
