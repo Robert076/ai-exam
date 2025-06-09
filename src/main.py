@@ -20,7 +20,8 @@ with open(jsonPath, 'r', encoding='utf-8-sig') as file:
 
 try:
     while True:
-        userInput = input("How many questions do you want to answer? (write all if you want to answer all questions): ")
+        print(BColors.BLUE + "Please let me know if a question is wrong by forking, making a pr and updating it")
+        userInput = input(BColors.NORMAL + "How many questions do you want to answer? (write all if you want to answer all questions): ")
         numberOfQuestions = len(questions)
         if userInput != "all":
             userInput = int(userInput)
