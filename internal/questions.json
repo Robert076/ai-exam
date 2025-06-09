@@ -250,7 +250,7 @@
       "the input and the kernel are zero everywhere bet in the finite set of points",
       "by using a convolution operation"
     ],
-    "correct": "d"
+    "correct": "ad"
   },
   {
     "question": "Clustering is:",
