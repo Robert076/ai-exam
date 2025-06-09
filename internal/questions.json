@@ -550,7 +550,7 @@
       "It enhances an attribute by integrating a new term that depends on spreading degree.",
       "None of the above."
     ],
-    "correct": "b"
+    "correct": "ab"
   },
   {
     "question": "We can implement the infinite summation as a sum over a finite number of array elements:",
