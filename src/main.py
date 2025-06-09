@@ -74,8 +74,12 @@ try:
             time.sleep(2)
 
 except KeyboardInterrupt:
-    print("\n\n" + BColors.INCORRECT + "Quiz closed instead.")
-    if 'userScore' in locals() and 'numberOfQuestions' in locals() and numberOfQuestions > 0:
-        userScorePercent = userScore / numberOfQuestions * 100
+    print("\n\n" + BColors.INCORRECT + "Quiz interrupted by user.")
+    questionsAnswered = i if 'i' in locals() else 0
+    if questionsAnswered > 0:
+        userScorePercent = userScore / questionsAnswered * 100
+        print(BColors.BLUE + f"You answered {questionsAnswered} questions.")
         print(BColors.BLUE + f"Your score so far: {userScorePercent:.2f}%")
+    else:
+        print(BColors.BLUE + "No questions were answered.")
     print(BColors.NORMAL)
