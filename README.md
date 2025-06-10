@@ -22,4 +22,4 @@ python3 main.py
 
 ## 🧩 Demo
 
-<img width="903" alt="Image" src="https://github.com/user-attachments/assets/f4865095-b7db-4aad-bbf9-e7a77a206811" />
+<img width="907" alt="Image" src="https://github.com/user-attachments/assets/cb7342b2-a9ca-4687-b246-c3b14ba22f6f" />
