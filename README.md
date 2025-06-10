@@ -2,7 +2,7 @@
 
 Learn the AI exam questions just like you learned the driver's exam questions. For my fellow brothers at uni.
 
-Most logic is taken from Mircea Maierean's cn_exam repo. This was just adapted to our AI exam.
+Most logic is taken from Mircea Maierean's cn_exam repo. This was just adapted to our AI exam with a few logic improvements.
 
 ### 🚀 Run the script:
 
